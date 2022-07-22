@@ -48,22 +48,19 @@ header.menu{
     margin-right: 15px;
 }
 
-.photo__name{
-    margin-top: 20px;
-}
-
-.photo__tools__messages,
-.photo__tools__editar,
-.photo__tools__gallery,
-.photo__tools__depositions{
-    margin-top: 0 1em;
+.photo__name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .description{
-    height: 500px;
+    max-width: 500px;
+    height: 800px;
+    
 }
 
 .counter__friend,
 .counter__community{
     height: 600PX;
+    width: 200px;
 }
