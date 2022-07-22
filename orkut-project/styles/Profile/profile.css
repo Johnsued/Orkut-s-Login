@@ -1,0 +1,69 @@
+header.menu{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+}
+
+.container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.container :not(:first-child){
+    margin-top: 50px;
+}
+
+.photo,
+.description,
+.counter__friend,
+.counter__community{
+    width: 100%;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.photo{
+    height: 700px;
+    border-top-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-width: 400px;
+}
+
+.photo__avatar > img{
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.photo__tools > div > i{
+    margin-right: 15px;
+}
+
+.photo__name{
+    margin-top: 20px;
+}
+
+.photo__tools__messages,
+.photo__tools__editar,
+.photo__tools__gallery,
+.photo__tools__depositions{
+    margin-top: 0 1em;
+}
+
+.description{
+    height: 500px;
+}
+
+.counter__friend,
+.counter__community{
+    height: 600PX;
+}
